@@ -1,0 +1,25 @@
+.categories UL {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   /* flex-direction: column; */
+}
+.categories ul li{
+   border: solid 2px #261ACB;
+   border-radius: 25px;
+   padding: 5px;
+   margin: 15px;
+}
+
+.jobCards{
+    display: flex;
+    overflow: auto;
+}
+
+.categories span{
+    margin: 40px;
+}
+
+.template{
+    margin: 20px;
+}

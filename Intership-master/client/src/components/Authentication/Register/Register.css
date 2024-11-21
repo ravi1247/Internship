@@ -1,0 +1,63 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.registerPage{
+    margin: auto;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    /* opacity: 0.5; */
+    width: 60vh;
+    align-items: center;
+    padding: 20px;
+    box-shadow: #261ACB 2px 0px 2px 2px ;
+    border-radius: 5px;
+}
+
+.registerPage label{
+    font-weight: bolder;
+}
+
+.registerPage input{
+    width: 80%;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    border:solid 2px rgb(91, 178, 202) ;
+}
+.registerPage h1{
+   font-size: 30px;
+   font-weight: bold;
+   color: #261ACB;
+}
+.registerPage p{
+   font-weight:500;
+}
+.registerPage span{
+    width: 80%;
+   /* font-weight:500; */
+   font-size:small;
+   margin: 10px;
+}
+
+.registerbtn{
+    width: 80%;
+    background: #261ACB;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.forget{
+    color: #261ACB;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.registerHere{
+    color: #261ACB;
+}

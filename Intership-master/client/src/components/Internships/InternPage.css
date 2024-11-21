@@ -1,0 +1,89 @@
+
+.pageTitle h1{
+   font-size: 30px;
+   font-weight:500;
+   text-align: center;
+   margin: 20px;
+}
+
+.internPage{
+    margin: auto;
+    margin-top:30px;
+    margin-bottom: 20px;
+    /* text-align: center; */
+}
+
+.InternPageBox {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    border: 1px solid royalblue;
+    margin-bottom: 20px;
+    /* margin: 10px; */
+}
+.abouttheprogram {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.InternPageBox ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.internhead{
+  margin: 10px;
+
+}
+.internhead p{
+    margin: 10px;
+}
+.internhead h2{
+    margin: 10px;
+    font-weight: bold;
+}
+.abouttheprogram h2{
+    margin: 10px;
+    font-weight: bold;
+}
+.abouttheprogram p{
+    margin-left: 15px;
+}
+.basicInfointern{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width:800px) {
+    .InternPageBox{
+       width: 85%;
+    }
+}
+.tagsIntern{
+    width: 40%;
+}
+
+.skillrequired{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+.skillrequired p{
+    margin-right: 20px;
+}
+
+.applybtn{
+    margin: auto;
+    background: #261ACB;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}

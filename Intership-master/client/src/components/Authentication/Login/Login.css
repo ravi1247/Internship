@@ -1,0 +1,64 @@
+.loginPage{
+    margin: auto;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    /* opacity: 0.5; */
+    width: 60vh;
+    align-items: center;
+    padding: 20px;
+    box-shadow: #261ACB 2px 0px 2px 2px ;
+    border-radius: 5px;
+    background: white;
+}
+
+.loginPage label{
+    font-weight: bolder;
+}
+
+.loginPage input{
+    width: 80%;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    border:solid 2px rgb(91, 178, 202) ;
+}
+.loginPage h1{
+   font-size: 30px;
+   font-weight: bold;
+   color: #261ACB;
+}
+.loginPage p{
+   font-weight:500;
+}
+.loginPage span{
+    width: 80%;
+   /* font-weight:500; */
+   font-size:small;
+   margin: 10px;
+}
+
+.loginbtn{
+    width: 80%;
+    background: #261ACB;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+
+}
+
+.forget{
+    color: #261ACB;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+/* body{
+    background: url('../../../Assets/background.png');
+    background-position: center;
+    background-repeat: no-repeat;               
+    background-size: cover;
+    height: 100vh;
+   bottom: 0;
+} */
+

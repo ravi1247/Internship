@@ -1,0 +1,41 @@
+.footer1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    background:rgb(96, 87, 116);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    color: white;
+}
+
+.footer2{
+    padding:10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer{
+    color: white;
+    background: rgb(108, 131, 167);
+    height: 60vh;
+}
+.footer2 ul h2{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.footerBottom{
+    display: flex;
+    /* margin: 10px; */
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.social i{
+    margin: 10px;
+}

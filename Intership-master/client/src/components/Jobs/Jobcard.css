@@ -1,0 +1,42 @@
+.jobcard{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    width: 90%;
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+
+.activetag{
+    font-weight: bold;
+    width: 18%;
+   font-size:   12px;
+   border-radius: 25px;
+}
+.jobrole{
+   
+    /* justify-content: space-between; */
+    color: #261ACB;
+    font-weight: bold;
+    display: flex;
+}
+.jobrole div{
+    margin-left: 10px;
+}
+
+.jobcarddetails{
+    /* justify-content: space-between; */
+    display: flex;
+}
+.jobcarddetails li{
+    /* justify-content: space-between; */
+    margin: 10px;
+}
+
+.companyname{
+    display: flex;
+    flex-direction: row;
+}

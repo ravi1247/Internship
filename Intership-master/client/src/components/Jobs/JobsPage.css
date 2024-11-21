@@ -1,0 +1,82 @@
+.jobspage{
+    position: relative;
+    padding-top: 12vh;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+
+.filters{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 25px;
+    margin-top: 10vh;
+    /* margin-top: 0; */
+    padding: 10px;
+    height: fit-content;
+}
+.filters label{
+    width: 100%;
+}
+.filters input{
+    width: 95%;
+}
+
+.searches{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.searcheshead{
+    /* margin: auto; */
+    font-size: 30px;
+}
+.stipendrange{
+    width: 100%;
+}
+
+.rangevalues{
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+.rangevalues li{
+    margin: 10px;
+    width: 100%;
+}
+
+.checkinput{
+    width: 95%;
+}
+
+.checkinput input{
+    width: 5%;
+}
+
+
+
+
+
+@media (max-width:800px) {
+    .jobspage{
+      flex-direction: column;
+      width: 90%;
+    }
+    .filters{
+        flex-direction: row;
+        height: 25vh;
+        overflow-y: scroll;
+        width: 90%;
+    }
+    .filters:hover{
+        width: 5vh;
+    }
+    .searches{
+      width: 100%;
+    }
+    .filters input{
+        width: 20vw;
+    }
+}

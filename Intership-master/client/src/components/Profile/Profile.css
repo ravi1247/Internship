@@ -1,0 +1,99 @@
+.profilephoto{
+    width: 100px;
+    
+}
+.profile h1{
+    font-size: 30px;
+    color: #261ACB;
+    font-weight: 500;
+}
+.profilephoto img{
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.profile{ 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.profiledetails{
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 400;
+}
+.applications {
+    font-size: 20px;
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.posts{
+    font-size: 20px;
+    margin: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.applications  tr{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+}
+.applications  ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+}
+.applications li{
+    width: 20%;
+    display: flex;
+    margin: 2px;
+    justify-content: space-between;
+    justify-content: center;
+    /* flex-wrap: nowrap; */
+}
+/* .posts ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+} */
+
+.posts ul{
+    color: red;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+}
+.posts li{
+    width: 25%;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.ulhead {
+    background-color: #abb2e1;
+    /* width:120%; */
+    border-radius: 5px;
+    /* co */
+}
+
+
+/* .status{ */
+    /* height: 100px; */
+/* } */

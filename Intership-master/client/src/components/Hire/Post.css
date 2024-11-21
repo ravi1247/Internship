@@ -1,0 +1,39 @@
+.jobpost{
+    width: 80%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    margin: auto;
+    justify-content: center;
+}
+.jobpost input{
+    width: 60%;
+    
+}
+.location{
+    width: 62%;
+    justify-content: space-between;
+}
+/* .location input{
+    width: 50px;
+} */
+/* .jobpost label{
+    width: 60%;
+    
+} */
+.jobposthead h1{
+   font-size: 40px;
+   font-weight: 500;
+}
+
+.selectOption{
+    width: 30%;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    border:solid 2px rgb(91, 178, 202) ;
+}
+.selectOption2{
+    width:60%;
+}
